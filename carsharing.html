@@ -11,15 +11,20 @@
           rel="stylesheet">
 </head>
 <body>
-<form class="forma">
+<div class="forma">
     <section class="banner">
         <nav class="banner_navigation">
             <section class="name">
-                <span class="logo"><img src="images/Icon.svg" alt="logo of the site"> <span class="car"> CAR </span> SHARING</span>
+                <div class="logo"><img src="images/Icon.svg" alt="logo of the site"> <span class="car"> CAR </span>SHARING
+                </div>
             </section>
             <section class="menu">
-                <div class="home">HOME</div>
-                <div class="rest_of_menu">BLOG SERVICE CONTACT</div>
+                <div class="home"> HOME</div>
+                <div class="rest_of_menu">
+                    <div class="blog"> BLOG</div>
+                    <div class="service"> SERVICE</div>
+                    <div class="contact"> CONTACT</div>
+                </div>
             </section>
         </nav>
         <div class="banner_content">
@@ -33,12 +38,37 @@
                 <div class="share_box"><a class="share" href="#">SHARE A CAR</a></div>
                 <div class="key_features_box"><a class="key_features" href="#">KEY FEATURES</a></div>
             </div>
+            <div class="arrow_circle"><img src="images/Icon%20Arrow%20Down.svg" class="arrow" alt="arrow"></div>
         </div>
     </section>
-    <section class="blog"></section>
+    <section class="blog_layout">
+        <div class="blog_main_box"><label class="blog_name">BLOG</label>
+            <div class="blog_box_1"><img src="images/photo1.png" alt="gear switch">
+                <div class="blog_box_1_title">LOREM IPSUM SIT DOLOR</div>
+                <div class="blog_box_1_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.
+                </div>
+                <div class="blog_box_1_button">READ MORE</div>
+            </div>
+            <div class="blog_box_2"><img src="images/photo2.png" alt="car hood">
+                <div class="blog_box_2_title">LOREM IPSUM SIT DOLOR</div>
+                <div class="blog_box_2_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.
+                </div>
+                <div class="blog_box_2_button">READ MORE</div>
+            </div>
+            <div class="blog_box_3"><img src="images/photo3.png" alt="car engine">
+                <div class="blog_box_3_title">LOREM IPSUM SIT DOLOR</div>
+                <div class="blog_box_3_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.
+                </div>
+                <div class="blog_box_3_button">READ MORE</div>
+            </div>
+        </div>
+    </section>
     <section class="service"></section>
     <section class="contact"></section>
     <footer class="info"></footer>
-</form>
+</div>
 </body>
 </html>
